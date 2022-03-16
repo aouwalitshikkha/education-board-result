@@ -37,11 +37,11 @@
       <img src="assets/images/bd_logo.png" class="rounded mx-auto d-block"  alt="" >
     </div>
 
-    <form class="my-lg-5 my-md-5 my-sm-2" method="POST" action="" onsubmit="app_form_validator(this)">
+    <form class="my-lg-5 my-md-5 my-sm-2" method="POST" action="">
       <div class="row mb-md-3 mb-sm-2">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Examination</label>
         <div class="col-sm-10">
-          <select class="form-select" aria-label="Default select example" onchange="fd(this);">
+          <select class="form-select" required>
             <option value="">Select Examination Type</option>
             <option value="ssc">SSC/Dakhil/Equivalent</option>
             <option value="jsc">JSC/JDC</option>
@@ -59,7 +59,7 @@
       <div class="row mb-md-3 mb-sm-2">
         <label for="inputPassword3" class="col-sm-2 col-form-label">Year</label>
         <div class="col-sm-10">
-          <select class="form-select" aria-label="Default select example" id="year">
+          <select class="form-select" aria-label="Default select example" id="year" required>
             <option  value="">Select Year</option>
             <option  value="2022" >2022</option>
             <option  value="2021" >2021</option>
@@ -87,9 +87,9 @@
       </div>
 
       <div class="row mb-md-3 mb-sm-2">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Board</label>
+        <label for="inputPassword3" class="col-sm-2 col-form-label" >Board</label>
         <div class="col-sm-10">
-          <select class="form-select" aria-label="Default select example" id="board">
+          <select class="form-select" id="board" required>
             <option value="">Select Board</option>
             <option value="barisal">Barisal</option>
             <option value="chittagong">Chittagong</option>
@@ -109,16 +109,16 @@
       </div>
 
       <div class="row mb-md-3 mb-sm-2">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Roll</label>
+        <label for="inputPassword3" class="col-sm-2 col-form-label" >Roll</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputPassword3" maxlength="6" onkeypress="return onlyNumbers()">
+          <input type="text" class="form-control" maxlength="6" required>
         </div>
       </div>
 
       <div class="row mb-md-3 mb-sm-3">
         <label for="inputPassword3" class="col-sm-2 col-form-label">Reg No</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputPassword3" maxlength="10" onkeypress="return onlyNumbers()">
+          <input type="text" class="form-control" required>
         </div>
       </div>
 
