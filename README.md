@@ -5,7 +5,15 @@ Address is  [All Education Board Results](https://alleducationboardresults.com/)
 
 ### Education Boards of Bangladesh
    
-1. Dhaka Education Board
-2. Chittagong Education Board
-3. Comilla Education Board
-4. Rajshahi Education Board
+1. Barisal
+2. Chittagong
+3. Comilla
+4. Dhaka
+5. Dinajpur
+6. Jessore
+7. Mymensingh
+8. Rajshahi
+9. Sylhet
+10. Madrasah
+11. Technical
+12. DIBS(Dhaka)
