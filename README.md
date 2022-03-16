@@ -17,3 +17,10 @@ Address is  [All Education Board Results](https://alleducationboardresults.com/)
 10. Madrasah
 11. Technical
 12. DIBS(Dhaka)
+
+
+### Author 
+---
+__Abdul Aouwal__  
+_aouwalitshikkha@gmail.com_  
+wesbite: [dghippo.com](https://dghippo.com)
